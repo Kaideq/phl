@@ -31,6 +31,8 @@ div {
     list-style-type: none;
     margin: 0;
     padding: 5;
+    position: relative;
+    top: -25px;
 }
 
 #cap li a:hover {
@@ -79,4 +81,9 @@ li a:visited {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 10px;
+}
+
+#logo {
+    position: relative;
+    top: 25px;
 }
