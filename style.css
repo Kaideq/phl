@@ -101,7 +101,8 @@ li a:visited {
     font-size: 40px;
 }
 
-#results td,th {
+#results td,
+th {
     border: 1px solid #FFFFFF;
     padding: 20px;
     text-align: center;
@@ -150,4 +151,16 @@ li a:visited {
 
 .POTOM {
     background-color: #FF0000;
+}
+
+.carrots {
+    background-color: #033D15;
+}
+
+.turtles {
+    background-color: #2B5C12;
+}
+
+.boosters {
+    background-color: #FB47B2;
 }
