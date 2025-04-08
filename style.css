@@ -97,15 +97,15 @@ li a:visited {
 #results {
     border: 1px solid #FFFFFF;
     border-collapse: collapse;
-    font-size: 30px;
-    width: 1700px;
+    font-size: 20px;
+    width: 1200px;
     color: #FFFFFF;
     background-color: #404040;
 }
 
 #results td,th {
     border: 3px solid #FFFFFF;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
