@@ -58,16 +58,15 @@ div {
 }
 
 li a:visited {
-    color: #f5f5f5;
+    color: #FFFFFF;
 }
 
 .player_card {
     background-color: #ffffff;
     color: #404040;
-    width: 20%;
-    padding-bottom: 5q;
+    width: 100%;
     box-shadow: 8q 10q 5q 2q #3232324d;
-        clip-path: polygon(0 0,100% 0,100% 0%,100% 100%,14q 100%,0 calc(100% - 14q));   
+    clip-path: polygon(0 0,100% 0,100% 0%,100% 100%,14q 100%,0 calc(100% - 14q));   
 }
 
 .player_image {
@@ -79,6 +78,7 @@ li a:visited {
     padding-left: 20q;
     padding-right: 20q;
     margin-bottom: 10q;
+    font-size: 20q;
 }
 
 #logo {
@@ -233,4 +233,13 @@ li a:visited {
     margin: auto;
     font-size: 30px;
 
+}
+
+.players {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 0q 20q;
+    grid-template-columns: repeat(4, 1fr);
+    width: 2500q;
+    margin: auto;
 }
