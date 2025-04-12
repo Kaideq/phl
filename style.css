@@ -18,10 +18,10 @@ div {
 }
 
 #cap {
-    font-size: 40;
+    font-size: 20px;
     width: 100%;
     background-color: #B45F06;
-    text-align: left;
+    text-align: center;
     box-shadow: 0q 10q 5q 2q rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
@@ -84,6 +84,8 @@ li a:visited {
 #logo {
     position: relative;
     top: 30q;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #first_title {
@@ -113,6 +115,7 @@ li a:visited {
 
 #replaymod {
     color:#7c7b7b;
+    text-decoration: none;
 }
 
 #replaymod:hover {
@@ -232,8 +235,8 @@ li a:visited {
     display: grid;
     grid-template-rows: auto;
     grid-gap: 0q 20q;
+    width: 1500q;
     grid-template-columns: repeat(3, 1fr);
-    width: 1200q;
     margin: auto;
     justify-content: center;
 }
@@ -258,4 +261,10 @@ li a:visited {
     grid-template-columns: repeat(4, 1fr);
     width: 2500q;
     margin: auto;
+}
+
+@media (max-width: 2000px) {
+    .news {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
