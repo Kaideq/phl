@@ -107,6 +107,22 @@ li a:visited {
     text-align: center;
 }
 
+#ps {
+    text-align: center;
+}
+
+#replaymod {
+    color:#7c7b7b;
+}
+
+#replaymod:hover {
+    color:#7c7b7b;
+}
+
+#undefined {
+    text-align: center;
+}
+
 .altai {
     background-color: #B45F06;
 }
