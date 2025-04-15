@@ -267,4 +267,25 @@ li a:visited {
     .news {
         grid-template-columns: repeat(2, 1fr);
     }
+} 
+
+@media (max-width: 1500px) {
+    .news {
+        display: block;
+        width: 700q;
+    }
+
+    .new {
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+
+    .news_link {
+        display: block;
+    }
+
+    .news_title {
+    
+    }
 }
